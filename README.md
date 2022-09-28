@@ -5,6 +5,7 @@
 ```bash
 $ yarn
 $ yarn prisma migrate deploy
+$ yarn prisma generate
 ```
 
 ## Running the app
