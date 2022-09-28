@@ -1,4 +1,4 @@
-# Template para projetos Nodejs com Typescript
+# Template Mambee para projetos Nodejs com Typescript
 
 ## Installation
 
