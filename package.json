@@ -13,11 +13,9 @@
     "lint-fix": "eslint --fix . --ext .ts",
     "pretty": "prettier --write . --ext .ts",
     "prepare": "husky install",
-    "precommit": "yarn lint-fix && yarn pretty",
-    "docker:up": "docker-compose up -d",
-    "docker:down": "docker-compose down",
+    "precommit": "yarn lint && yarn pretty",
     "migrate:postgres": "dotenv -e .env.test -- npx prisma migrate deploy",
-    "test": "yarn docker:up && yarn migrate:postgres && dotenv -e .env.test jest -i",
+    "test": "yarn migrate:postgres && dotenv -e .env.test jest -i",
     "test:cov": "jest --coverage"
   },
   "keywords": [],

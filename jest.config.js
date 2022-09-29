@@ -1,6 +1,6 @@
 module.exports = {
-  preset: "ts-jest",
-  roots: ["./tests"],
-  testEnvironment: "node",
+  preset: 'ts-jest',
+  roots: ['./tests'],
+  testEnvironment: 'node',
   // setupFiles: ['dotenv/config'],
 };
