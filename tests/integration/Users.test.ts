@@ -29,7 +29,7 @@ describe('Test the users path', () => {
   test('It should get all users', async () => {
     const response = await request(app).get(API_USERS);
     const users = response.body;
-    console.log('users: ', users);
+    // console.log('users: ', users);
     expect(response.statusCode).toBe(200);
     expect(users.length).toBe(1);
   });
