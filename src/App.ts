@@ -8,7 +8,7 @@ app.use(helmet()); // https://helmetjs.github.io/
 
 // middleware para converter o body das requisições para json
 app.use(express.json());
-console.log('kkk');
+
 // middleware de tratamento de todas as rotas
 app.use('/', routes);
 
